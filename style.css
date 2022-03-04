@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    padding: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: normal;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+#hero{
+    margin-top: 56px;
+    padding: 0px 40px;
+}
+
+#nav-list{
+    list-style: none;
+    display: inline-block;
+    font-weight: 900;
+    font-size: large;
+    letter-spacing: 3px;
+}
+
+.nav-items{
+    float: left;
+    margin: 20px;
+}
+.nav-items:hover{
+    cursor: pointer;
+    color: #ff1e74;
+    transition: 0.5s;
+}
+#item-1{
+    color: #fb498c;
+}
+#item-1:hover{
+    color: #ff1e74;
+    transition: 0.5s;
+}
+
+#logo{ 
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#hero > div{
+    height: 400px;
+    width: 400px;
+    display: inline-flex;
+}
+
+.hero-img{
+    background-image: url(images/hero.png);
+    background-size: cover;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+}
+#hero-con{
+    flex-direction: column;
+    justify-content:  center;
+}
+
+#hero-con button{
+    width: 120px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #464444;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+#hero-con button:hover{
+    background-color: #ff1e74;
+    transition: 0.5s;
+}
+
+#hero-con h1{
+    margin: 10px;
+}
+#hero-con p{
+    margin: 10px;
+}
+#hero-con button{
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+#features{
+    display: flex;
+    background-color: #f0edfe;
+    border-radius: 10px;
+    border-radius: 30px;
+    margin: 40px;
+}
+ 
+#feature-2{
+    width: 666px;
+    height: 420px;
+    background-image: url(images/Untitled\ design.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    background-size: cover;
+}
+
+#feature-1, #feature-3{
+    width: 300px;
+    height: 420px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0px 40px;
+}
+
+#feature-1 p, #feature-3 p{
+    font-size: 90px;
+    font-weight: bolder;
+    text-align: left;
+    color: #6e54b4;
+}
+#feature-1 h2, #feature-3 h2{
+    text-align: left;
+}
+
+    
+.discover-head{
+    display: inline-block;
+}
+
+
+#discover{
+    margin-top: 250px;
+}
+.discover-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover-main > div{
+    width: 600px;
+    margin: 20px;
+}
+
+.left-features, .right-features{
+    padding: 10px;
+}
+
+.img-span{
+    height: 80px;
+    display: inline-block;
+    width: 80px;
+}
+
+/* images for discover features */
+
+#img-1{
+    background-image: url(images/features/f1.png);
+}
+#img-2{
+    background-image: url(images/features/f3.png);
+}
+#img-3{
+    background-image: url(images/features/f1.png);
+}
+#img-4{
+    background-image: url(images/features/f2.png);
+}
+#img-5{
+    background-image: url(images/features/f1.png);
+}
+#img-6{
+    background-image: url(images/features/f3.png);
+}
+#img-7{
+    background-image: url(images/features/f1.png);
+}
+#img-8{
+    background-image: url(images/features/f2.png);
+}
+
+/* images for discover features */
+
+
+.main-child p{
+    font-size: 23px;
+    font-weight: 900;
+    color: grey;
+}
+
+
+.discover-head p{
+    font-size: 60px;
+    color: black;
+    font-weight: 900;
+}
+.discover-head {
+    display: inline-block;
+    display: block;
+    padding: 0px 240px;
+}
+
+
+.apple-logo{
+    background-image: url(images/environment_logo__e9jts37xk5qy_large.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-position: center;
+    margin: 10px 0px;
+}
+
+#environment{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:100px 300px;
+    text-align: center;
+    margin: 50px;   
+    background-color: #f5f5f7;
+    border-radius: 30px;
+}
+
+.env-head{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 10px 0px;
+    color: rgb(43, 170, 43);
+}
+#environment a{
+    margin: 10px 0px;
+    text-decoration: none;
+    color: rgb(50, 124, 221);
+}
+
+#environment a:hover{
+    text-decoration: underline;
+}
+.env-p{
+    color: black;
+    word-spacing: 6px;
+    font-size: 20px;
+}
+#ghadi-1{
+    width: 600px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;;
+}
+.ghadi-1-img{
+    background-image: url(images/spiral.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 450px;
+}
+.ghadi-2-img{
+    background-image: url(images/ghadi.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 450px;
+}
+
+#ghadi{
+    display: flex;
+    /* padding: 20px; */
+    justify-content: space-evenly;
+    background-color: #fff8ee;
+    margin: 20px;
+    border-radius: 35px;;
+}
+
+#ghadi > div{
+    border: 2px solid white;
+}
+
+.ghadi-p{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+}
+
+#ghadi-2 p{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.ghadi-2-img{
+    height: 400px;
+    width: 200px;
+}
+
+#ghadi-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#grid-section{
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#grid-section > h1{
+    background-color: #acacf1;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: 500px;
+    grid-gap: 30px;
+}
+
+
+.prod-img{
+    height: 350px;
+    background-color: white;
+}
+
+#prod-img-1{
+    background-image: url(images/prod-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#prod-img-2{
+    background-image: url(images/prod-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#prod-img-3{
+    background-image: url(images/prod-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.prod-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.prod-desc > h6{
+    color: #bf4800;
+    margin: 5px;
+}
+
+.prod-desc button{
+    padding: 2px 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0071e3;
+    color: white;
+    margin: 5px;
+}
+
+.prod-desc button:hover{
+    cursor: pointer;
+    background-color: #0778e9;
+}
+
+#grid-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#grid-section > p{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.prod-desc a{
+    color: #0778e9;
+    text-decoration: none;
+    margin: 5px;
+}
+.prod-desc a:hover{
+    color: #0778e9;
+    text-decoration: underline;
+}
